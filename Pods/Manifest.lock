@@ -1,0 +1,19 @@
+PODS:
+  - AFCSVRequestOperation (1.0.0):
+    - AFNetworking
+    - CHCSVParser
+  - AFNetworking (1.3.1)
+  - CHCSVParser (2.0.7)
+  - Google-Maps-iOS-SDK (1.4.0)
+
+DEPENDENCIES:
+  - AFCSVRequestOperation (>= 1.0.0)
+  - Google-Maps-iOS-SDK (>= 1.3.0)
+
+SPEC CHECKSUMS:
+  AFCSVRequestOperation: 744b5d2205d0d9654ac438709f9dceb7df25c324
+  AFNetworking: 9ec8aafb9269236a7630bd8d9838ce2ba30fa2a0
+  CHCSVParser: 30ac034cc0d37d9c783e7af96926270524836d70
+  Google-Maps-iOS-SDK: 684be0a52331711e69dd2791ffec4d3db2d34924
+
+COCOAPODS: 0.20.1
