@@ -7,8 +7,13 @@
 //
 
 #import "FlipsideViewController.h"
+#import <GoogleMaps/GMSMapView.h>
+#import <GoogleMaps/GoogleMaps.h>
+#import "Station.h"
+#import "Line.h"
+#import <UIKit/UIKit.h>
 
-@interface MainViewController : UIViewController <FlipsideViewControllerDelegate, NSXMLParserDelegate>
+@interface MainViewController : UIViewController <FlipsideViewControllerDelegate, NSXMLParserDelegate, GMSMapViewDelegate>
 
 - (IBAction)showInfo:(id)sender;
 

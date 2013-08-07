@@ -17,8 +17,11 @@ typedef enum {
 @interface Line : NSObject
 
 @property (nonatomic, strong) NSString *name;
+@property (nonatomic, strong) NSString *text;
 @property (nonatomic, assign) LineStatus status;
 @property (nonatomic, strong) NSString *date;
 @property (nonatomic, strong) NSString *time;
+
++ (LineStatus)statusForString:(NSString *)statusString;
 
 @end

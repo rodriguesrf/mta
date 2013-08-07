@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		2C12ACEE17A88DD300DD32B5 /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C12ACED17A88DD300DD32B5 /* Line.m */; };
+		2C12ACF117A8AE9700DD32B5 /* Station.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C12ACF017A8AE9700DD32B5 /* Station.m */; };
+		2C12ACF417AB052C00DD32B5 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C12ACF317AB052C00DD32B5 /* Utils.m */; };
+		2C12ACF817AD9EA400DD32B5 /* SelectedLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C12ACF617AD9EA300DD32B5 /* SelectedLineViewController.m */; };
+		2C12ACF917AD9EA400DD32B5 /* SelectedLineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C12ACF717AD9EA300DD32B5 /* SelectedLineViewController.xib */; };
 		93E855CB8CBB4B03AE8955E1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC53FA498CE64A2ABE30F28A /* libPods.a */; };
 		F874DDEE17A76B1100D0E695 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F874DDED17A76B1100D0E695 /* UIKit.framework */; };
 		F874DDF017A76B1100D0E695 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F874DDEF17A76B1100D0E695 /* Foundation.framework */; };
@@ -42,6 +46,13 @@
 /* Begin PBXFileReference section */
 		2C12ACEC17A88DD300DD32B5 /* Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Line.h; sourceTree = "<group>"; };
 		2C12ACED17A88DD300DD32B5 /* Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Line.m; sourceTree = "<group>"; };
+		2C12ACEF17A8AE9700DD32B5 /* Station.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Station.h; sourceTree = "<group>"; };
+		2C12ACF017A8AE9700DD32B5 /* Station.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Station.m; sourceTree = "<group>"; };
+		2C12ACF217AB052B00DD32B5 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		2C12ACF317AB052C00DD32B5 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		2C12ACF517AD9EA300DD32B5 /* SelectedLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectedLineViewController.h; sourceTree = "<group>"; };
+		2C12ACF617AD9EA300DD32B5 /* SelectedLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectedLineViewController.m; sourceTree = "<group>"; };
+		2C12ACF717AD9EA300DD32B5 /* SelectedLineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectedLineViewController.xib; sourceTree = "<group>"; };
 		DAA2A9E650474ED49152D01B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		DC53FA498CE64A2ABE30F28A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F874DDEA17A76B1100D0E695 /* MTA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTA.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -135,13 +146,20 @@
 				F874DDFD17A76B1200D0E695 /* AppDelegate.m */,
 				F874DE0517A76B1200D0E695 /* MainViewController.h */,
 				F874DE0617A76B1200D0E695 /* MainViewController.m */,
+				2C12ACF517AD9EA300DD32B5 /* SelectedLineViewController.h */,
+				2C12ACF617AD9EA300DD32B5 /* SelectedLineViewController.m */,
+				2C12ACF717AD9EA300DD32B5 /* SelectedLineViewController.xib */,
 				F874DE0817A76B1200D0E695 /* FlipsideViewController.h */,
 				F874DE0917A76B1200D0E695 /* FlipsideViewController.m */,
 				F874DE0B17A76B1200D0E695 /* MainViewController.xib */,
 				F874DE0E17A76B1200D0E695 /* FlipsideViewController.xib */,
 				F874DDF417A76B1200D0E695 /* Supporting Files */,
+				2C12ACF217AB052B00DD32B5 /* Utils.h */,
+				2C12ACF317AB052C00DD32B5 /* Utils.m */,
 				2C12ACEC17A88DD300DD32B5 /* Line.h */,
 				2C12ACED17A88DD300DD32B5 /* Line.m */,
+				2C12ACEF17A8AE9700DD32B5 /* Station.h */,
+				2C12ACF017A8AE9700DD32B5 /* Station.m */,
 			);
 			path = MTA;
 			sourceTree = "<group>";
@@ -258,6 +276,7 @@
 				F874DE0417A76B1200D0E695 /* Default-568h@2x.png in Resources */,
 				F874DE0D17A76B1200D0E695 /* MainViewController.xib in Resources */,
 				F874DE1017A76B1200D0E695 /* FlipsideViewController.xib in Resources */,
+				2C12ACF917AD9EA400DD32B5 /* SelectedLineViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +344,9 @@
 				F874DE0717A76B1200D0E695 /* MainViewController.m in Sources */,
 				F874DE0A17A76B1200D0E695 /* FlipsideViewController.m in Sources */,
 				2C12ACEE17A88DD300DD32B5 /* Line.m in Sources */,
+				2C12ACF117A8AE9700DD32B5 /* Station.m in Sources */,
+				2C12ACF417AB052C00DD32B5 /* Utils.m in Sources */,
+				2C12ACF817AD9EA400DD32B5 /* SelectedLineViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
