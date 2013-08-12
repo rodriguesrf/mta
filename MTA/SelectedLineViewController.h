@@ -13,4 +13,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *lineLabel;
 @property (weak, nonatomic) IBOutlet UILabel *statusLabel;
 @property (strong, nonatomic) NSMutableSet *selectedLines;
+
+- (IBAction)done:(id)sender;
+
 @end
